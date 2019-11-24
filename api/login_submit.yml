@@ -3,7 +3,7 @@ variables:
   phone: ${ENV(USERNAME)}
   password: ${ENV(PASSWORD)}
 request:
-    url: ${ENV(Environmental)}/api/login/submit
+    url: https://mubu.com/api/login/submit
     method: POST
     data:
       password: ${password}
