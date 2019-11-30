@@ -2,6 +2,7 @@ name: login_submit api
 variables:
   phone: ${ENV(USERNAME)}
   password: ${ENV(PASSWORD)}
+  code: 0
 request:
     url: https://mubu.com/api/login/submit
     method: POST
@@ -16,3 +17,4 @@ request:
       x-requested-with: XMLHttpRequest
 validate:
     - eq: ["status_code", 200]
+    - eq: [content.code, $code]
