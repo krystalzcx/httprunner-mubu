@@ -6,7 +6,8 @@ authors = ["krystal"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "3.5"
+python = "3.6^"
 requests = "^2.22"
 
 [tool.poetry.dev-dependencies]
