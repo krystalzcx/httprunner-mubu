@@ -1,8 +1,8 @@
-import time
-def test_case():
-    print()
+import unittest
+class test_class:
+    def test_case(self):
+        print()
 
 
 if __name__ == '__main__':
-    test_case()
-
+    unittest.main()

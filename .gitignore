@@ -5,3 +5,6 @@ __pycache__/*
 .python-version
 logs/*
 .idea
+poetry
+poetry.lock
+.coverage
